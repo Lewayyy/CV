@@ -1,0 +1,373 @@
+/*STYLES GENERAUX*/
+*
+{
+	font-family: georgia,"arial black","sans-serif;";
+	padding: 0px;
+	margin: 0px;
+	text-align: justify;
+}
+
+body
+{
+	background-color: #d6caad;
+}
+
+
+
+
+/*HEADER , FOOTER*/
+
+header 
+{
+	width: 100%;
+	background: url(images/fond_header.jpg);
+	background-repeat: repeat;
+	border-bottom: 2px solid white ;
+	padding: 20px 0px;
+	margin: 0px;
+}
+
+.progress_bar{
+  height:10px;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  background-color:#b43f3f;
+}
+
+a
+{
+	display:flex;
+	justify-content: right;
+	padding-right: 170px;
+}
+
+img
+{
+	border: 1px solid white;
+	box-shadow: 6px 6px 8px black;
+}
+
+
+em
+{
+	font-weight: bold;
+}
+
+.info
+{
+	font-size: 1.5em;
+	color: #d6caad;
+	display:flex;
+	justify-content: right;
+	padding-right: 20px;
+}
+
+header
+{
+	align-items: center;
+}
+  
+header ul
+{
+	list-style-type: none;
+}
+
+ h1/* titre de l'en tête*/
+{
+	
+	color: #d6caad;
+
+}
+
+footer
+{
+	width: 100%;
+	height: 100px;
+	background: url(images/fond_header.jpg);
+	background-repeat: repeat;
+	border-top: 2px solid white ;
+	padding: 20px 0px;
+	margin: 0px;
+}
+	
+
+/*BODY*/
+
+
+section
+{
+	display: flex;
+	border: 1px solid white;
+	box-shadow: 6px 6px 8px ;
+	width: 70%;
+	margin: 50px 250px;
+	background-color: #e0dbce;
+	
+}
+
+.presentation
+{
+	margin-right: 50px;
+	border-right:5px dotted white ;
+	padding: 20px;
+	
+	
+	
+}
+
+.futurs
+{
+	margin-right: 50px;
+	padding: 20px;
+	
+}
+
+.exp
+{
+	border: 1px solid white;
+	box-shadow: 6px 6px 8px ;
+	margin: 50px 250px;
+	width: 68%;
+	background-color: #e0dbce;
+	padding: 20px;
+}
+
+.compétences
+{
+	border: 1px solid white;
+	box-shadow: 6px 6px 8px ;
+	margin: 30px 250px;
+	width: 68%;
+	background-color: #e0dbce;
+	padding: 20px;
+}
+
+.pro
+{
+	
+	box-shadow: 6px 6px 8px ;
+	margin: 30px 250px;
+	width: 68%;
+	padding: 20px;
+}
+
+.perso
+{
+
+	box-shadow: 6px 6px 8px ;
+	margin: 30px 250px;
+	width: 68%;
+	padding: 20px;
+}
+
+.formation
+{
+	border: 1px solid white;
+	box-shadow: 6px 6px 8px ;
+	margin: 50px 250px;
+	width: 68%;
+	background-color: #e0dbce;
+	padding: 20px;
+}
+
+.formation ul
+{
+	list-style-type: none;
+	font-size: 20px;
+}
+
+.interêt
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border: 1px solid white;
+	box-shadow: 6px 6px 8px ;
+	margin: 50px 250px;
+	width: 68%;
+	background-color: #e0dbce;
+	padding: 20px;
+}
+
+
+ul
+{
+	font-size: 1.1em;
+}
+
+p
+{
+	font-size: 1.1em;
+}
+
+/*Breakpoints principaux*/
+
+@media all and (max-width: 768px)/*iPads, Tablets*/
+{
+	section
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.exp
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+	
+	.compétences
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.pro
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.perso
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.formation
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.interêt
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+
+}
+
+@media all and (max-width: 1024px)/*Small screens*/
+{		
+	section
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.exp
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+	
+	.compétences
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.pro
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.perso
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.formation
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.interêt
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+
+
+}
+
+
+@media all and (max-width: 1200px)/*Large screens*/
+{
+	section
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.exp
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+	
+	.compétences
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.pro
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.perso
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.formation
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.interêt
+	{
+		display: flex;
+		margin: auto;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}
+
+
+

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Test</title>
+      <link rel="stylesheet" href="styles.css">
+      <script src="https://kit.fontawesome.com/239fd24c41.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <!-- HEADER -->
+      <header>
+         <nav>
+            <!-- LOGO -->
+            <div>
+                <img src="images/label_systematic.png" alt="">
+                <h2></h2>
+            </div>
+            
+            <!-- BURGER -->
+            <a href=""><i class="fa-solid fa-bars"></i></a>
+            <!-- SEPARATOR -->
+            <!-- SOCIAL MEDIA -->
+            <ul>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li></li>
+            </ul>
+            <!-- SEPARATOR -->
+            <!-- LOUPE -->
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            <!-- SEPARATOR -->
+            <!-- BUTTON -->
+            <button></button>
+         </nav>
+      </header>
+      <!-- BANNER -->
+      <div>
+         <img src="images/banniere.jpg" alt="">
+      </div>
+      <main>
+         <div>
+            <h1>Nom de l'evenement</h1>
+            <ul>
+               <li>DATE:</li>
+               <li>HORAIRES:</li>
+               <li>ADRESSE:</li>
+               <li>ORGANISATEUR:</li>
+               <li>PRIX:</li>
+               <button></button>
+            </ul>
+         </div>
+         <h2>HUBS ET ENJEUX :</h2>
+         <h3>Optics et Phononics</h3>
+         <div>
+            <img src="images/Image_event.png" alt="">
+         </div>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nam condimentum leo elit, sit amet rhoncus nisl lacinia ac.
+            Aenean at diam at magna laoreet vulputate. Vivamus in efficitur est.
+            Sed cursus quam vitae tellus tincidunt, a bibendum metus efficitur
+            .Nunc non neque vitae lacus tincidunt ullamcorper.
+         </p>
+         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet felis ante, vitae pharetra justo cursus id. Nam condimentum consectetur erat ac rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis quis mi diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus ac lacus est. Sed dictum, velit vel tincidunt consequat, velit neque porta ligula, in tincidunt mi lacus a magna. In hac habitasse platea dictumst. Donec et varius dolor. Integer sed dignissim nunc, nec accumsan turpis. Curabitur vel gravida lacus. Nunc congue, magna sed malesuada vulputate, sapien mauris fringilla ligula, at tempor orci ex ac leo.</p>
+         <!-- SEPARATEUR -->
+         <p>Tags : <a href=""> </a></p>
+         <div>
+            <img src="images/Fond_rose.png" alt="">
+         </div>
+         <div>
+            <img src="map.png" alt="">
+         </div>
+         <p>PARTAGER: </p>
+         <img src="images/Icones_social.png" alt="">
+      </main>
+      <aside>
+         <div>
+            <h2>Evenements a venir</h2>
+         </div>
+         <div>
+            <h3>Janvier 2020 <img src="images/mois.png" alt=""></h3>
+         </div>
+         <!-- /////////// -->
+         <div>
+            <h3>Nom de l'evenement</h3>
+            <h3>Date:</h3>
+            <p>22 Janvier 2020-24 Janvier 2020</p>
+         </div>
+         <!-- /////////// -->
+         <div>
+            <h3>Nom de l'evenement</h3>
+            <h3>Date:</h3>
+            <p>22 Janvier 2020-24 Janvier 2020</p>
+         </div>
+         <!-- /////////// -->
+         <div>
+            <h3>Nom de l'evenement</h3>
+            <h3>Date:</h3>
+            <p>22 Janvier 2020-24 Janvier 2020</p>
+         </div>
+         <!-- /////////// -->
+         <div>
+            <h3>Nom de l'evenement</h3>
+            <h3>Date:</h3>
+            <p>22 Janvier 2020-24 Janvier 2020</p>
+         </div>
+         <!-- /////////// -->
+         <div>
+            <h3>Nom de l'evenement</h3>
+            <h3>Date:</h3>
+            <p>22 Janvier 2020-24 Janvier 2020</p>
+         </div>
+         <!-- ////////// -->
+         <h2>Hubs et Enjeux</h2>
+         <ul>
+            <li>Data Science et Al</li>
+            <li>Cyber et Security</li>
+            <li>Digital Engineering</li>
+            <li>Digital Infrasructure et IOT</li>
+            <li>Optics et Phononics</li>
+            <li>Open Source</li>
+            <li>Territoires</li>
+            <li>Societe</li>
+            <li>Insutrie et Services</li>
+         </ul>
+      </aside>
+      <footer>
+         <div>
+            <div>
+               <p></p>
+               <p></p>
+            </div>
+            <form action=""></form>
+            <button></button>
+            <!-- separateur -->
+            <div>
+               <p></p>
+               <p></p>
+            </div>
+            <img src="" alt="">
+         </div>
+         <!-- separateur -->
+         <div>
+            <p><a href=""></a> <a href=""></a></p>
+         </div>
+         <!-- separateur -->
+         <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+         </ul>
+         <button></button>
+      </footer>
+   </body>
+</html>
+
+<!-- <div class="foot">
+         <div class="formulaire">
+            <div class="form">
+               <p class="news">Newsletter</p>
+               <p class="systematic">SYSTEMATIC</p>
+            </div>
+            <div class="email">
+            <input type="email" name=""email id="email" placeholder="EMAIL">
+            <button>Je m'inscris</button>
+            </div>
+         </div>
+         <div class="media">
+            <div>
+               <p>Suivez nous sur <br> les réseaux sociaux :</p>
+            </div>
+            <div class="social2">
+               <span class="fa-stack" style="vertical-align: top; ">
+                  <i class="fa-solid fa-circle fa-stack-2x"></i>
+                  <i class="fa-brands fa-twitter fa-inverse fa-stack-1x"></i>
+               </span>
+               <span class="fa-stack" style="vertical-align: top;">
+                  <i class="fa-solid fa-circle fa-stack-2x"></i>
+                  <i class="fa-brands fa-linkedin-in fa-inverse fa-stack-1x"></i>
+               </span>
+               <span class="fa-stack" style="vertical-align: top;">
+                  <i class="fa-solid fa-circle fa-stack-2x"></i>
+                  <i class="fa-brands fa-facebook fa-inverse fa-stack-1x"></i>
+               </span>
+               <span class="fa-stack" style="vertical-align: top;">
+                  <i class="fa-solid fa-circle fa-stack-2x "></i>
+                  <i class="fa-solid fa-wifi fa-inverse fa-stack-1x"></i>
+               </span>
+            </div>
+         </div> 
+      </div>
+      <div class="all">
+         <div class="copy">
+            <p><a href="">SYSTEMATIC 2020</a>.Création <a href="">Agence Peach</a></p>
+         </div>
+         <ul class="list">
+            <li>Contact</li>
+            <li>FAQ</li>
+            <li>Glossaire</li>
+            <li>Mentions légales</li>
+         </ul>
+         <button></button>
+      </div>   -->
